@@ -16,9 +16,8 @@ Once PyCUDA is installed, you can import it in your Python programs like so:
 ```python
 import pycuda.autoinit
 import pycuda.driver as cuda
-To write GPU-accelerated programs with PyCUDA, you will follow these steps:
 ```
-
+To write GPU-accelerated programs with PyCUDA, you will follow these steps:
 - Create a CUDA kernel (a program for the GPU)
 - Prepare data for the kernel to operate on
 - Run the kernel on the GPU
